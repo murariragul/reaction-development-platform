@@ -1,0 +1,6 @@
+make stop-$1
+echo "stopped  $1"
+make dev-link-$1
+echo "linked to the dev"
+make start-$1
+echo "started $1"
